@@ -1,0 +1,267 @@
+/*change font*/
+@font-face{
+    font-family: 'AvenirLTStd-Heavy';
+    src: url('../AvenirLTStd-Heavy.otf');
+}
+@font-face{
+    font-family: 'AvenirLTStd-Medium';
+    src: url('../AvenirLTStd-Medium.otf');
+}
+@font-face{
+    font-family: 'AvenirLTStd-Roman';
+    src: url('../AvenirLTStd-Roman.otf');
+}
+@font-face{
+    font-family: 'Lora-Regular';
+    src: url('../Lora-Regular.otf');
+}
+@font-face{
+    font-family: 'SegoeUI-Semibold';
+    src: url('../SegoeUI-Semibold.otf');
+}
+.AvenirLTStd-Heavy{
+    font-family: 'AvenirLTStd-Heavy';
+}
+.AvenirLTStd-Medium{
+        font-family: 'AvenirLTStd-Medium';
+}
+.AvenirLTStd-Roman{
+        font-family: 'AvenirLTStd-Roman';
+}
+.Lora-Regular{
+        font-family: 'Lora-Regular';
+}.SegoeUI-Semibold{
+        font-family: 'SegoeUI-Semibold';
+}
+/*end change font*/
+
+/*-=-=-=-=-==-=-==-==-==-==-=-=-=-=-=-=-=-=-=WRAPPER-=-=-===-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-*/
+.wrapper{
+    height: auto;
+    padding: 0 8% 0 8%;
+    margin-top: 1.5rem;
+    text-align: left;
+}
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-END WRAPPER-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+
+
+/*==========================NAVBAR=================================*/
+.navbar.navbar-expand-md.navbar-dark.bg-dark.sticky-top.change{
+	padding:0 7% 2% 7%;
+    background-image: url(images/select_01.png);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+
+}
+
+/*======================END NAVBAR=========================*/
+
+
+
+.scrollbar{
+    background-color: #f1f5f8;
+}
+
+
+
+
+/*========================================START SLIDER==================================================*/
+.carousel-indicator ul{
+    position: absolute;
+    right: 0;
+    bottom:10px;
+    z-index: 15;
+    display: flex;
+    justify-content: left;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 4%;
+    list-style: none;
+}
+.carousel-caption{
+    position: absolute;
+    margin-left: 10px;
+}
+.carousel-caption p{
+    text-align: left;
+    padding: 0;
+    justify-content: left;
+    margin-left: -17%; 
+    margin-top: 0; 
+    margin-bottom: 0;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+ .card-body p{
+    margin-top: -2px;
+    margin-bottom: 1rem;
+    font-size: smaller;
+    height:50%;
+    }
+/*=============================================== SLIDER END==========================================*/
+
+
+/************-------------------------***********media queries*****************-------------------******/
+@media (max-width: 1200px){
+     .card-body p{
+    margin-top: -2px;
+    margin-bottom: 1rem;
+    font-size: xx-small;
+    }
+    .card-img-overlay{
+    margin-top: 40%;
+    }
+    .quotes p{
+        font-size: small;
+    }
+}
+@media (min-width: 1199px){
+     .card-body p{
+    margin-top: -2px;
+    margin-bottom: 1rem;
+    font-size: smaller;
+    }
+}
+@media (max-width: 992px) {
+    /*nav .navbar.navbar-expand-md.navbar-dark.bg-dark.sticky-top.change{
+        background-color: #265a9c !important;
+        padding:0 20px 5px 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }*/
+    .card-body p{
+    margin-top: -5px;
+    margin-bottom: 1rem;
+    font-size: smaller;
+    }
+    .bee{
+        padding-top: 1.25rem;
+        background-color: #f1f5f8;
+    }
+    #navbarResponsive ul li a{
+        font-size: smaller;
+    }
+    .card-img-overlay{
+    margin-top: 40%;
+}
+    
+}
+    
+}
+@media (min-width: 992px){
+   
+}
+
+@media (min-width: 767px){
+    
+}
+@media (max-width: 768px){
+    nav{
+        background-color: #265a9c;
+    }
+    .carousel-caption p{
+        font-size: small;
+    }
+    .carousel-indicator ul{
+        margin-left: 7%;
+    }
+}
+@media (max-width: 576px){
+    .carousel-caption p{
+        font-size: xx-small;
+    }
+    .wrapper{
+    height: auto;
+    padding: 0 1% 0 1%;
+    margin-top: 1.5rem;
+    text-align: left;
+    }
+    .carousel-indicator ul{
+        margin-left: 7%;
+    }
+    .navbar.navbar-expand-md.navbar-dark.bg-dark.sticky-top.change{
+    background-color: #265a9c !important;
+    padding:0 7% 2% 7%;
+    }
+}
+@media (min-width: 575px){
+    .navbar.navbar-expand-md.navbar-dark.bg-dark.sticky-top.change{
+    background-image: #265a9c !important;
+    padding:0 7% 2% 7%;
+    }
+}
+/************-------------------------***********media queries*****************-------------------******/
+.card-deck{
+    margin-top: 1.5rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+.card-deck.card.modifier{
+    top: 50%;
+    z-index: 50%;
+    margin-bottom: 40%;
+}
+
+/*=============================VIDEO COFFE CORNER BIRTHDAY MANAGEMENT=========================*/
+.birthday{
+    width: 100%;
+    height:auto;
+    background-color: #FFFFFF;
+    border-radius: 2%;
+    padding:.5rem;
+    box-shadow: 5px ;
+    margin: .5rem;
+}
+
+.footer{
+    background-color: #484848;
+    height:auto;
+    width: 100%;
+    padding: 0 0 .5rem 0;
+    
+}
+.footer p{
+    padding: 0;
+    margin: 0;
+    font-family: AvenirLTStd-Medium;
+    font-size: smaller;
+    color: white;
+}
+.quotes{
+    width: 100%;
+    height: auto;
+    border-radius: 3%;
+    background-color: #265D9E;
+    color: white;
+    padding: 3%;
+    margin-top: 1rem;
+}
+.container-fluid.padding.sectNews{
+    margin-top: 1.5rem;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 1rem;
+}
+.birthday p{
+    margin-bottom: 0;
+    font-family: AvenirLTStd-Roman;
+    font-size: small;
+}
+.comment p{
+    font-size: small;
+    margin-bottom: 0;
+}
+.video p{
+    font-size: small;
+}
+.announcement p{
+    font-size: small;
+}
+.announcemnt span{
+    font-size: xx-small;
+    color: blue;
+}
